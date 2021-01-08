@@ -1,0 +1,8 @@
+module StudentApp {
+  interface StudentApp {
+    string add();
+    string udate();
+    string delete();
+    oneway void shutdown();
+    };
+  };
